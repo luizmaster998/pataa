@@ -1,0 +1,374 @@
+.formulario{
+
+   margin-top: 100px;
+   border-radius: 10px;
+   border:1px solid black;
+   padding-top: 50px;
+   padding-bottom: 10px;
+   
+   
+
+}
+
+
+
+.btn-search1:hover{
+    background-color: #b86360;
+    color: white;
+ }
+ 
+
+.btn-search1{
+    color: #b86360;
+    
+    background-color: #fff;
+    border: solid 2px#b86360;
+    border-radius: 5px;
+    
+ }
+ 
+.senha-form{
+    margin-top: 50px;
+}
+
+.btn-entrar{
+    color: white;
+    border-color:  #b86360;
+    background-color:  #b86360;
+    margin-top: 50px;
+    border: solid 2px #9D5452;
+    border-radius: 5px;
+    width: 50%;
+
+
+    
+}
+.btn-entrar:hover {
+    background-color:  #966462;
+  }
+.footer{
+
+    margin-top: 100px;
+}
+
+.btn-cadastrar{
+
+    margin-left: 0px;
+    color: #b86360;
+    border: solid 2px #9D5452;
+    border-radius: 5px;
+    
+
+}
+
+.cadastre{
+    margin-left: 0px;
+    color: #351912;
+    margin-bottom: 30px;
+}
+
+.seuloguin{
+    margin-bottom: 30px;
+    margin-left: 30px;
+    color: #351912;
+}
+/*
+
+@media screen and (max-width:392px){
+
+.formulario{
+    margin-top: 20px ;
+    display: flex;
+    align-items: center;
+       width: 300px;
+
+
+}
+.seuloguin{
+
+   width: 300px;
+
+}
+.cpf-form{
+
+    width: 200px;
+
+}
+.alert-cpf{
+
+    width: 200px;
+
+}
+.senha-form{
+
+    width: 200px;
+
+}
+.btn-entrar{
+    width: 200px;
+}
+.btn-search1{
+
+    width: 200px;
+
+}
+.cadastre{
+
+    width: 300px;
+
+}
+}
+
+
+
+
+@media screen and (min-width: 393px) and (max-width:575px){
+
+
+    .formulario{
+
+        margin-top: 20px ;
+        display: flex;
+        align-items: center;
+           width: 400px;
+    
+    
+    }
+    .seuloguin{
+    
+       width: 300px;
+    
+    }
+    .cpf-form{
+    
+        width: 300px;
+    
+    }
+    .alert-cpf{
+    
+        width: 300px;
+    
+    }
+    .senha-form{
+    
+        width: 300px;
+    
+    }
+    .btn-search1{
+    
+        width: 300px;
+    
+    }
+    .cadastre{
+    
+        width: 300px;
+    
+    }
+    .btn-entrar{
+        width: 300px;
+    }
+    }
+    
+
+
+    @media screen and (min-width:576px) and (max-width:768px){
+
+
+    .formulario{
+        margin-top: 20px ;
+        display: flex;
+        align-items: center;
+           width: 500px;
+    
+    
+    }
+    .seuloguin{
+    
+       width: 400px;
+    
+    }
+    .cpf-form{
+    
+        width: 400px;
+    
+    }
+    .alert-cpf{
+    
+        width: 400px;
+    
+    }
+    .senha-form{
+    
+        width: 400px;
+    
+    }
+    .btn-search1{
+    
+        width: 400px;
+    
+    }
+    .cadastre{
+    
+        width: 400px;
+    
+    }
+    .btn-entrar{
+        width: 400px;
+    }
+    }
+    
+
+    @media screen and (min-width:769px) and (max-width:991px){
+
+
+
+
+    .formulario{
+        margin-top: 20px ;
+        display: flex;
+        align-items: center;
+           width: 600px;
+    
+    
+    }
+    .seuloguin{
+    
+       width: 500px;
+    
+    }
+    .cpf-form{
+    
+        width: 500px;
+    
+    }
+    .alert-cpf{
+    
+        width: 500px;
+    
+    }
+    .senha-form{
+    
+        width: 500px;
+    
+    }
+    .btn-search1{
+    
+        width: 500px;
+    
+    }
+    .cadastre{
+    
+        width: 500px;
+    
+    }
+    .btn-entrar{
+        width: 500px;
+    }
+
+
+    }
+
+
+    @media screen and (min-width:992px) and (max-width:1200px){
+
+
+        .formulario{
+            margin-top: 20px ;
+            display: flex;
+            align-items: center;
+               width: 900px;
+        
+        
+        }
+        .seuloguin{
+        
+           width: 300px;
+        
+        }
+        .cpf-form{
+        
+            width:300px;
+        
+        }
+        .alert-cpf{
+        
+            width: 700px;
+        
+        }
+        .senha-form{
+        
+            width: 300px;
+        
+        }
+        .btn-search1{
+        
+            width: 200px;
+            margin-left: 50px;
+        
+        }
+        .cadastre{
+        
+            width: 700px;
+        
+        }
+        .btn-entrar{
+            width: 300px;
+        }
+    
+
+
+    }
+
+
+    @media screen and (min-width:1201px)
+    {
+
+
+        .formulario{
+            margin-top: 20px ;
+            display: flex;
+            align-items: center;
+               width: 1000px;
+        
+        
+        }
+        .seuloguin{
+        
+           width: 300px;
+        
+        }
+        .cpf-form{
+        
+            width:400px;
+        
+        }
+        .alert-cpf{
+        
+            width: 300px;
+        
+        }
+        .senha-form{
+        
+            width: 400px;
+        
+        }
+        .btn-search1{
+            margin-left: 150px;
+            width: 300px;
+        
+        }
+        .cadastre{
+        
+            margin-left: 100px;
+            width: 400px;
+        
+        }
+        .btn-entrar{
+            width: 400px;
+            
+        }
+    
+
+
+    }
+*/

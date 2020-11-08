@@ -1,0 +1,39 @@
+body{
+    background-color: #ebebeb;
+}
+
+.btn:hover {
+    color: #fff;
+    opacity: 0.8;
+    border: 1px solid #9D5452;
+}
+
+.cardspet{
+
+    width: 70%;
+    min-height: 350px;
+    margin:30px;
+    margin-left: auto;
+    margin-right: auto;
+    border:2px solid gray;
+    border-radius: 5px;
+    background-color: white;
+ 
+    
+}
+
+.desc{
+
+height: 130px;
+overflow: auto;
+
+}
+
+.btn:hover {
+    color: #fff;
+    opacity: 0.8;
+}
+
+
+
+

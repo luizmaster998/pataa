@@ -1,0 +1,64 @@
+body{
+    background-color: #ebebeb;
+}
+
+
+/* ============================================ */
+/* =============== FORMULARIO CEP ============= */
+/* ============================================ */
+
+.borda-redonda{
+    border-radius: 10px;
+    border: solid 1px black;
+}
+h4{
+    color: #351912;
+}
+
+#msgErro{
+    color: red;
+    display: none;
+}
+
+#lblEsqueciCep{
+    color: #b7773f;
+    text-decoration: underline;
+    display: inline;
+}
+
+.espacoBottom20{
+    margin-bottom: 20px;
+}
+
+.espacoTop10{
+    margin-top: 10px;
+}
+
+.espacoBottom20{
+    margin-bottom: 20px;
+}
+
+
+/* ================================================ */
+/* =============== FORMULARIO CORREIO ============= */
+/* ================================================ */
+
+.margemLeft20{
+    margin-left: 20px;
+}
+
+.corBege{
+    color: #b7773f;
+}
+
+.corMarrom{
+    color: #351912;
+}
+
+spam{
+    color: red;
+}
+
+#lblStatusRequisicao{
+    color: #351912;
+}

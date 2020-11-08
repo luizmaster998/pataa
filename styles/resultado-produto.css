@@ -1,0 +1,51 @@
+body{
+    background-color: #ebebeb;
+}
+
+.btn:hover {
+    color: #fff;
+    opacity: 0.8;
+    border: 2px solid #9D5452;
+}
+
+
+.btn-primary{
+
+border: 2px solid #9D5452;
+margin-bottom: 10px;
+
+}
+
+
+.cardsprod{
+
+    max-width: 110%;
+    margin:20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+.limiteLinhas{
+    height: 50px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    -webkit-box-orient: vertical;
+    margin-bottom: 10px;
+}
+
+
+@media screen and (min-width: 393px) and (max-width:575px) {
+
+
+
+}
+
+
+
+
+
+

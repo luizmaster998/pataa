@@ -1,0 +1,77 @@
+
+*{font-family: Arial, Helvetica, sans-serif;}
+
+body{
+    background-color: #ebebeb;
+}
+/* INICIO CARD */
+.custom-cards {
+    margin-top: 20px;
+}
+
+.card {
+    font-size: 16px;
+    align-items: center;
+    width:auto;
+    height: auto;
+    margin-top: 10px;
+    visibility: visible;
+   
+    }
+
+.card-img-top{
+    width: 100px;
+    align-items: center;
+}
+
+.card-body{
+    text-align: center;
+}
+.card-title{
+    font-size: 16px;
+}
+/* FIM CARDS */
+
+/* INICIO BOTAO */
+.btn-comprar{
+    background-color: #9D5452;
+    width: 200px;
+    color: #fff;
+    cursor: pointer;
+    
+}
+.btn:hover {
+    color: #fff;
+    opacity: 0.8;
+}
+/* FIM BOTAO */
+
+.mvendido{
+    color: #351912;
+    text-align: center;
+}
+.pcachorro{
+    color: #b7773f;
+}
+.pgato{
+    color: #b7773f;
+}
+
+.titulo{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.teste1{
+    overflow: auto;
+}
+
+.limiteLinhas{
+    height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    -webkit-box-orient: vertical;
+    margin-bottom: 10px;
+}

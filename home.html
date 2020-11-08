@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+        <title>Home</title>
+
+        <!-- CSS BOOTSTRAP -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+        <!-- MEU HEADER + FOOTER -->
+        <link rel="stylesheet" href="styles/style-fixo.css">
+
+        <!-- CSS PAGINA -->
+        <link rel="stylesheet" href="styles/home.css">
+   </head>
+
+    <body>
+
+        <!-- INICIO HEADER - NAO MEXER AQUI-->
+        <div id="header-pataNaJanta" class="container-fluid">
+
+            <div class="row header">
+
+                <!-- LOGO AQUI - FEITO -->
+                <div class="col-12 col-sm-2 text-center mt-2">
+                    <a href="home.html"><img src="images/logov7.png" width="170px"></a>
+                    
+                </div>
+
+
+                <!-- SEARCH BAR + BOTAO - FEITO -->
+                <div class="col-12 col-sm-7 text-center">
+                
+                    <form class="form">
+                            <input class="form-control mr-2 mb-1 mt-4 searchBox" type="search" placeholder="Procure produtos para seu cachorro ou gato" aria-label="Search" style="flex-direction: start;">
+                            <button class="btn btn-search" type="submit">
+                                <img src="images/lupa_white.png" width="22px">
+                            </button>
+                    </form>
+                </div>
+
+
+                <!-- CONTAINER CARRINHO + LOGIN -->
+                <div class="col-12 col-sm-3">
+                    <div class="row">
+
+                        <!-- CARRINHO -->
+                        <div class="col-6 text-center" style="margin-top: 16px;text-align: center;">
+                            <a href="carrinho.html" style="color: #b7773f;"><img src="images/carrinho_marrom_1.png" class="img-fluid" width="35px">
+                            <h6 style="color: white; margin-top: 5px;">Meu carrinho</h6></a>
+                        </div>
+
+                        <!-- LOGIN -->
+                        <div class="col-6 text-center" style="padding-top: 2px; margin-top: 16px;text-align: center; ; display:inline-block; display: block;">
+                            
+                            <a href="login.html">
+                                <img src="images/user_marrom.png" width="30px">
+                            </a>
+
+
+                            <div class="container-fluid" style="display: block;">
+                                <ul class="nav d-flex justify-content-center">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link linksNavBarTitulo" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                            <h6 id="lblUser" style="display: inline-block;">USUARIO</h6>
+                                        </a>
+                                        <div class="dropdown-menu mr-2">
+                                            <a class="dropdown-item linkNavBar" href="historico-pedido.html">Pedidos</a>
+                                            <a class="dropdown-item linkNavBar" href="#">Sair</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- FIM HEADER -->
+        
+
+
+            <!-- INICIO NAVBAR -->
+            <div class="row navBar">
+                        <div class="col-md-2 col-12" style="padding-left: 40px; padding-right: 40px;">
+                            
+                            <ul class="nav nav-pills">
+                                <li class="nav-item dropdown text-center barrinha" style="text-decoration: none;align-items: center;">
+                                    <a class="nav-link dropdown-toggle mt-2 linksNavBarTitulo" data-toggle="dropdown" href="file:///home/aluno/%C3%81rea%20de%20Trabalho/Treinamento%20RD/Projeto%20Integrador/GIT%20-%20Pata%20na%20Janta/PatanaJanta/header/header.html#" role="button" aria-haspopup="true" aria-expanded="false" style="background-color: #b86360;">Cachorro</a>
+                                    <div class="dropdown-menu barrinha" >
+                                    <a class="dropdown-item linkNavBar" href="#">Alimentação</a>
+                                    <a class="dropdown-item linkNavBar" href="#">Conforto</a>
+                                    <a class="dropdown-item linkNavBar" href="#">Brinquedos</a>
+                                    <a class="dropdown-item linkNavBar" href="#">Passeio</a>
+                                </div></li>
+                            </ul>
+
+                            
+                        </div>
+
+                        <div class="col-md-2 col-12" style="padding-left: 40px; padding-right: 40px;">
+                            <ul class="nav nav-pills">
+                                <li class="nav-item dropdown text-center barrinha" style="text-decoration: none;">
+                                    <a class="nav-link dropdown-toggle mt-2 linksNavBarTitulo " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="background-color: #b86360;">Gato</a>
+                                    <div class="dropdown-menu barrinha">
+                                    <a class="dropdown-item linkNavBar" href="#">Alimentação</a>
+                                    <a class="dropdown-item linkNavBar" href="#">Conforto</a>
+                                    <a class="dropdown-item linkNavBar" href="#">Brinquedos</a>
+                                    <a class="dropdown-item linkNavBar" href="#">Ambiente</a>
+                                </div></li>
+                            </ul>
+                        </div>
+
+
+                        <div class="col-4">
+                            
+                        </div>
+
+                        <div class="col-md-2 col-12 text-center pt-3">
+                            <a class="text-center" style="text-align: center; color:white" href="adote-pet.html">Adote um pet</a>
+                        </div>
+                        
+
+                        <div class="col-md-2 col-12 text-center pt-3">
+                            <a class="text-center" style="text-align: center; color:white" href="fale-conosco.html">Contatos</a>
+                        </div>
+            </div>
+        </div>
+
+<!-- CARROSSEL -->
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="images/banner/banner1.png" alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="images/banner/banner2.png" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="images/banner/banner3.png" alt="Third slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <!-- FIM CARROSSEL -->
+        
+        <!-- DIV DE CONTEUDO DA PAGINA-->
+        <div class="container">
+            <div class="mvendido mt-3">
+                <h1><strong>Mais Vendidos</strong></h1>
+            </div>
+        <div class="pcachorro mt-3">
+                <h2>Para seu cachorro</h2>
+            </div>
+            <!--inicio cards-->
+           <div class="row custom-cards">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card">
+                    <img class="card-img-top img-fluid" src="images/racao-adulto-special-15kg-golden-3310549-15kg.png" alt="racao-adulto-special-15kg-golden-3310549-15kg">
+                    <div class="card-body">
+                        <div class="container limiteLinhas">
+                      <h6 class="card-title">Ração para Cães Adultos Golden premium...</h6>
+                    </div>
+                      <p class="card-text">R$ 109,90</p>
+                      <a href="detalhes-produto.html" class="btn btn-comprar">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card">
+                    <img class="card-img-top img-fluid" src="images/CAES---FRANGO-100G---F.png" alt="CAES---FRANGO-100G---F">
+                    <div class="card-body">
+                        <div class="container limiteLinhas">
+                      <h6 class="card-title">Alimento Úmido Premier Cães Gourmet...</h6></div>
+                      <p class="card-text">R$ 28,90</p>
+                      <a href="#" class="btn btn-comprar">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card">
+                    <img class="card-img-top img-fluid" src="images/Bifinho-Origem-Natural-Cordeiro.png" alt="Tapete-Higienico-Super-Secao-Citrus-Petix">
+                    <div class="card-body">
+                        <div class="container limiteLinhas">
+                      <h6 class="card-title">Bifinho Origem Natural Cordeiro Cães</h6></div>
+                      <p class="card-text">R$ 69,90</p>
+                      <a href="#" class="btn btn-comprar">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card">
+                    <img class="card-img-top img-fluid" src="images/Coleira-Antipulgas-Seresto-Caes-Acima-de-8kg-4.png" alt="Blue_30_unidades_a_3757381">
+                    <div class="card-body">
+                        <div class="container limiteLinhas">
+                      <h6 class="card-title">Coleira Antipulgas Seresto Cães Acima de 8kg...</h6></div>
+                      <p class="card-text">R$ 199,90</p>
+                      <a href="#" class="btn btn-comprar">Comprar</a>
+                    </div>
+                </div>
+            </div>
+           </div>
+
+          <!--comeco - banner-->
+    <div class="row">
+        <div class="col-12 mt-2">
+            <img class="img-fluid" src="images/banner/banner4.png">
+        </div>
+    </div>
+
+<!--fim - banner-->
+
+<div class="pgato mt-2">
+    <h2>Para seu gato</h2>
+</div>
+        <div class="row custom-cards mb-2">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card">
+                    <img class="card-img-top img-fluid" src="images/3132_-_Sachet_GP_Gato_Castrado_Frango_85g.png" alt="Card image cap">
+                    <div class="card-body">
+                        <div class="container limiteLinhas">
+                      <h5 class="card-title">Ração Úmida Gran Plus Gatos Castrados Frango</h5></div>
+                      <p class="card-text">R$ 2,39</p>
+                      <a href="#" class="btn btn-comprar">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card">
+                    <img class="card-img-top img-fluid" src="images/Alimento-Umido-Premier-Gourmet-Gatos-Atum-e-Arroz-.png" alt="Card image cap">
+                    <div class="card-body">
+                        <div class="container limiteLinhas">
+                      <h5 class="card-title">Alimento Úmido Premier Gatos Gourmet Atum</h5></div>
+                      <p class="card-text">R$ 5,49</p>
+                      <a href="#" class="btn btn-comprar">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card">
+                    <img class="card-img-top img-fluid" src="images/premium-para-gatos-adultos-castrados.png" alt="Card image cap">
+                    <div class="card-body">
+                        <div class="container limiteLinhas">
+                      <h5 class="card-title">Ração Royal Canin Premium Gatos Castrados</h5></div>
+                      <p class="card-text">R$ 36,39</p>
+                      <a href="#" class="btn btn-comprar">Comprar</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="card">
+                    <img class="card-img-top img-fluid" src="images/Granulado-Sanitario-Natural-Katbom-3kg.png" alt="Card image cap">
+                    <div class="card-body">
+                        <div class="container limiteLinhas">
+                      <h5 class="card-title">Granulado Sanitário Natural Katbom 3kg</h5></div>
+                      <p class="card-text">R$ 21,90</p>
+                      <a href="#" class="btn btn-comprar">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--fim cards-->
+        </div>
+
+        <!-- FOOTER - NÂO MEXER -->
+        <div class="container-fluid">
+            <footer class="row footer">
+                <div class="col-12 mt-3">
+                    <div class="row">
+                        <div class="col-12 col-sm-6">
+                            <div class="text-left ml-3">
+                                <h6 class="titulo">Formas de Pagamento</h6>
+                                <img id="card-1" class="img-fluid" src="images/MASTERCARD.png" alt="mastercard" width="50px">
+                                <img id="card-2" class="ml-2 img-fluid" src="images/ICONE VISA.png" alt="visa" width="50px">
+                                <img id="card-3" class="ml-2 img-fluid" src="images/PAYPAL.png" alt="paypal" width="53px">
+                                <img id="card-4" class="ml-2 img-fluid" src="images/AMEX.png" alt="american" width="55px">
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <div class="divOrientation mr-3">
+                                <h6 class="titulo">Redes Sociais</h6>
+                                <img class="mr-2 img-fluid" src="images/instagram.png" alt="instagram" width="40px">
+                                <img class="mr-2 img-fluid" src="images/Twitter.png" alt="Twitter" width="40px">
+                                <img class="img-fluid" src="images/Face .png" alt="face" width="35px">
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 text-center mt-4">
+                    <p>Política de privacidade | © 2020 PATA NA JANTA. Todos os direitos reservados.</p>
+                </div>
+            </footer>
+        </div>
+
+
+        <!-- JS BOOTSTRAP -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+        <!-- JS SCROLL - NAO APAGAR -->
+        <script src="javascript/scroll.js"></script>
+
+    </body>
+</html>

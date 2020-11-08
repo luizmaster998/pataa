@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+        <title>Adote um Pet</title>
+
+        <!-- CSS BOOTSTRAP -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+        <!-- CSS HEADER e FOOTER -->
+        <link rel="stylesheet" href="styles/style-fixo.css">
+
+        <!-- CSS PAGINA_MODELO -->
+        <link rel="stylesheet" href="styles/adote-pet.css">
+
+    </head>
+
+    <body>
+
+        <!-- INICIO HEADER - NAO MEXER AQUI-->
+        <div id="header-pataNaJanta" class="container-fluid">
+
+            <div class="row header">
+
+                <!-- LOGO AQUI - FEITO -->
+                <div class="col-12 col-sm-2 text-center mt-2">
+                    <a href="home.html">
+                         <img src="images/logov7.png" width="170px">
+                    </a>
+                </div>
+
+
+                <!-- SEARCH BAR + BOTAO - FEITO -->
+                <div class="col-12 col-sm-7 text-center">
+                
+                    <form class="form">
+                            <input class="form-control mr-2 mb-1 mt-4 searchBox" type="search" placeholder="Procure produtos para seu cachorro ou gato" aria-label="Search" style="flex-direction: start;">
+                            <button class="btn btn-search" type="submit">
+                                <img src="images/lupa_white.png" width="22px">
+                            </button>
+                    </form>
+                </div>
+
+
+                <!-- CONTAINER CARRINHO + LOGIN -->
+                <div class="col-12 col-sm-3">
+                    <div class="row">
+
+                        <!-- CARRINHO -->
+                        <div class="col-6 text-center" style="margin-top: 16px;text-align: center;">
+                            <a href="carrinho.html" style="text-decoration: none;">
+                                <img src="images/carrinho_marrom_1.png" class="img-fluid" width="35px">   
+                                <h6 style="color: white; margin-top: 5px;">Meu carrinho</h6>
+                            </a>
+                        </div>
+
+                        <!-- LOGIN -->
+                        <div class="col-6 text-center" style="padding-top: 2px; margin-top: 16px;text-align: center; ; display:inline-block; display: block;">
+                            
+                            <img src="images/user_marrom.png" width="30px">
+
+
+                            <div class="container-fluid" style="display: block;">
+                                <ul class="nav d-flex justify-content-center">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link linksNavBarTitulo" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                            <h6 id="lblUser" style="display: inline-block;">USUARIO</h6>
+                                        </a>
+                                        <div class="dropdown-menu mr-2">
+                                            <a class="dropdown-item linkNavBar" href="historico-pedido.html">Pedidos</a>
+                                            <a class="dropdown-item linkNavBar" href="#">Sair</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- FIM HEADER -->
+        
+
+
+            <!-- INICIO NAVBAR -->
+            <div class="row navBar">
+                        <div class="col-md-2 col-12" style="padding-left: 40px; padding-right: 40px;">
+                            
+                            <ul class="nav nav-pills">
+                                <li class="nav-item dropdown text-center barrinha" style="text-decoration: none;align-items: center;">
+                                    <a class="nav-link dropdown-toggle mt-2 linksNavBarTitulo" data-toggle="dropdown" href="file:///home/aluno/%C3%81rea%20de%20Trabalho/Treinamento%20RD/Projeto%20Integrador/GIT%20-%20Pata%20na%20Janta/PatanaJanta/header/header.html#" role="button" aria-haspopup="true" aria-expanded="false" style="background-color: #b86360;">Cachorro</a>
+                                    <div class="dropdown-menu barrinha" >
+                                    <a class="dropdown-item linkNavBar" href="#">Alimentação</a>
+                                    <a class="dropdown-item linkNavBar" href="#">Conforto</a>
+                                    <a class="dropdown-item linkNavBar" href="#">Brinquedos</a>
+                                    <a class="dropdown-item linkNavBar" href="#">Passeio</a>
+                                </div></li>
+                            </ul>
+
+                            
+                        </div>
+
+                        <div class="col-md-2 col-12" style="padding-left: 40px; padding-right: 40px;">
+                            <ul class="nav nav-pills">
+                                <li class="nav-item dropdown text-center barrinha" style="text-decoration: none;">
+                                    <a class="nav-link dropdown-toggle mt-2 linksNavBarTitulo " data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="background-color: #b86360;">Gato</a>
+                                    <div class="dropdown-menu barrinha">
+                                    <a class="dropdown-item linkNavBar" href="#">Alimentação</a>
+                                    <a class="dropdown-item linkNavBar" href="#">Conforto</a>
+                                    <a class="dropdown-item linkNavBar" href="#">Brinquedos</a>
+                                    <a class="dropdown-item linkNavBar" href="#">Ambiente</a>
+                                </div></li>
+                            </ul>
+                        </div>
+
+
+                        <div class="col-4">
+                            
+                        </div>
+
+                        <div class="col-md-2 col-12 text-center pt-3">
+                            <a class="text-center" style="text-align: center; color:white" href="adote-pet.html">Adote um pet</a>
+                        </div>
+                        
+
+                        <div class="col-md-2 col-12 text-center pt-3">
+                            <a class="text-center" style="text-align: center; color:white" href="fale-conosco.html">Contatos</a>
+                        </div>
+            </div>
+        </div>
+
+
+       
+
+        <div class="row" style="width: 100%;">
+            <div class="col-md-12 col-12 text-center mt-4">
+                <br><h2>Adote um Pet</h2>
+            </div>
+
+        </div>
+
+            <!-- <<<<<CARDS DAS ONGS>>>>> -->
+
+
+              <div class="row cardspet ">
+
+               
+                    <div class="col-md-4 col-12 text-center mt-4">
+                       <img class=" img-fluid" src="images/saofrancisco.jpeg" alt="Card image cap">
+                    </div>
+                    <div class="col-md-7 col-12  mt-4">
+                        <h4 class="card-title text-center">ONG Amigos de São Francisco</h4><br>
+                        <p class="card-text">Somos uma Ong de São Paulo dedicada ao respeito aos animais de qualquer raça e espécie e que acredita que uma sociedade só estará em equilíbrio quando souber tratar com dignidade seus animais.
+                          <br>
+                          Deseja adotar ou fazer parte dos Amigos de São Francisco? Clique abaixo e saiba como ajudar.</p>
+                        <a target="blank" href="http://amigosdesaofrancisco.com.br/" class="card btn text-center mb-3" style="margin-top: 60px; margin-left: auto;margin-right: auto;  width: 50%; background-color: #b86360; color: #fff;">Conhecer</a>
+                    </div>
+
+              </div>
+
+
+
+              <div class="row cardspet ">
+
+               
+                <div class="col-md-4 col-12 text-center mt-4">
+                   <img class=" img-fluid" src="images/amigonaosecompra.jpg" alt="Card image cap">
+                </div>
+                <div class="col-md-7 col-12 mt-4">
+                    <h4 class="card-title text-center ">Amigo não se compra</h4><br>
+                    <p class="card-text">O Amigo não se Compra é um site em que ONGs e Protetores de todo o Brasil podem divulgar cães e gatos para adoção. O projeto existia informalmente desde 2012, mas em 2017 nos registramos oficialmente como uma Associação! 
+                      <br>
+                      Clique abaixo para conhecer os cães e gatos que estão esperando um lar!</p>
+                      <a target="blank" href="https://www.amigonaosecompra.com.br/" class="card btn text-center mb-3" style="margin-top: 50px ;margin-left: auto;margin-right: auto;  width: 50%; background-color: #b86360; color: #fff;">Conhecer</a>
+                  </div>
+
+          </div>
+
+          <div class="row cardspet ">
+
+               
+            <div class="col-md-4 col-12 text-center mt-4">
+               <img class=" img-fluid" src="images/clube.jpeg" alt="Card image cap">
+            </div>
+            <div class="col-md-7 col-12 mt-4">
+                <h4 class="card-title text-center ">Club dos vira-latas</h4><br>
+                <p class="card-text">Nossa luta incansável em prol dos animais excluídos e mal tratados sempre será nosso objetivo principal. Contudo, sonhamos com o dia em que um abrigo como o "Clube dos Vira-Latas" não precisará existir, pois quando isso acontecer, todos terão um lar!
+                  <br>
+                  Convidamos a todos que queiram conhecer nosso trabalho de perto, que visitem o abrigo. Clique abaixo e conheça!</p>
+                  <a target="blank" href="https://www.clubedosviralatas.org.br/" class="card btn text-center mb-3" style=" margin-top: 50px; margin-left: auto;margin-right: auto;  width: 50%; background-color: #b86360; color: #fff;">Conhecer</a>
+              </div>
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+           <!-- ------------------------------------------------ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- FOOTER - NÂO MEXER -->
+        <div class="container-fluid">
+            <footer class="row footer">
+                <div class="col-12 mt-3">
+                    <div class="row">
+                        <div class="col-12 col-sm-6">
+                            <div class="text-left ml-3">
+                                <h6 class="titulo">Formas de Pagamento</h6>
+                                <img id="card-1" class="img-fluid" src="images/MASTERCARD.png" alt="mastercard" width="50px">
+                                <img id="card-2" class="ml-2 img-fluid" src="images/ICONE VISA.png" alt="visa" width="50px">
+                                <img id="card-3" class="ml-2 img-fluid" src="images/PAYPAL.png" alt="paypal" width="53px">
+                                <img id="card-4" class="ml-2 img-fluid" src="images/AMEX.png" alt="american" width="55px">
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <div class="divOrientation mr-3">
+                                <h6 class="titulo">Redes Sociais</h6>
+                                <img class="mr-2 img-fluid" src="images/instagram.png" alt="instagram" width="40px">
+                                <img class="mr-2 img-fluid" src="images/Twitter.png" alt="Twitter" width="40px">
+                                <img class="img-fluid" src="images/Face .png" alt="face" width="35px">
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 text-center mt-4">
+                    <p>Política de privacidade | © 2020 PATA NA JANTA. Todos os direitos reservados.</p>
+                </div>
+            </footer>
+        </div>
+
+
+        <!-- JS BOOTSTRAP -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+        <!-- JS SCROLL - NAO APAGAR -->
+        <script src="javascript/scroll.js"></script>
+
+    </body>
+</html>

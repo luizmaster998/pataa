@@ -1,0 +1,245 @@
+body{
+    background-color: #ebebeb;
+}
+
+
+/* ===================================================== */
+/* ========== FORMULARIO - LABELS ===================== */
+/* ===================================================== */
+
+.bordaFormulario{
+    margin: 60px 0px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#titulo_produto{
+    margin-top: 10px;
+    color: #351912;
+    font-weight: bold;
+}
+
+#preco_produto{
+    margin-top: 40px;
+    color: #351912;
+}
+
+#preco_produto_parcelado{
+    color: #b7773f;
+}
+
+#input_qtd_itens{
+    width: 70px;
+}
+
+
+#lbl_qtd{
+    margin-top: 42px;
+    color: #b7773f;
+}
+
+#lbl_titulo_descricao{
+    margin-top: 10px;
+    color: #351912;
+}
+
+#lbl_conteudo_descricao{
+    margin-top: 20px;
+    margin-bottom: 150px;
+    color: #351912;
+}
+
+
+/* ===================================================== */
+/* ================== ZOOM PRODUTO ===================== */
+/* ===================================================== */
+
+
+.img-magnifier-container {
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  .img-magnifier-glass {
+    box-sizing: border-box;
+    position: absolute;
+    border: 2px solid #A9A9A9;
+    width: 110px;
+    height: 110px;
+    display: block;
+    /* cursor: none; */
+  }
+
+
+/* ===================================================== */
+/* ================== BOTAO COMPRAR ==================== */
+/* ===================================================== */
+
+#container_btn_comprar{
+    margin-top: 60px;
+    /* background-color: yellow; */
+}
+
+#btn_comprar{
+    /* margin-top: 60px; */
+    margin-left: -15px;
+    margin-bottom: 20px;
+    background-color: #b86360;
+    color: white;
+    width: 400px;
+    border: solid 2px #9D5452;
+}
+
+#btn_comprar:hover{
+    background-color: #C27976;
+}
+
+
+
+/* ========================================================= */
+/* ==================== CHECKBOX ZOOM ====================== */
+/* ========================================================= */
+
+
+/* #chkZoom:checked{
+    background-color: yellow !important;
+} */
+
+
+/* ========================================================== */
+/* ================== MEDIA QUERYS ========================== */
+/* ========================================================== */
+
+@media screen and (max-width:259px){
+
+    #lbl_qtd{
+        margin-top: 20px;
+    }
+
+    #btn_comprar{
+        /* margin-top: 60px; */
+        background-color: #b86360;
+        color: white;
+        width: 120px;
+        border: solid 2px #9D5452;
+    }
+
+    #container_chk{
+        margin-bottom: 30px;
+    }
+
+    .img-zoom-lens{
+        display: none;
+    }
+
+    /* #img_produto{
+        width: 300px;
+        height: 400px;
+    } */
+
+    /* #container_btn_comprar{
+        text-align: center;
+        background-color: yellow;
+    } */
+}
+
+@media screen and (min-width:260px) and (max-width:575px){
+
+    #lbl_qtd{
+        margin-top: 20px;
+    }
+
+    #btn_comprar{
+        /* margin-top: 60px; */
+        background-color: #b86360;
+        color: white;
+        width: 190px;
+        border: solid 2px #9D5452;
+    }
+
+    #container_chk{
+        margin-bottom: 30px;
+    }
+
+    .img-zoom-lens{
+        display: none;
+    }
+
+    /* #img_produto{
+        width: 300px;
+        height: 300px;
+    } */
+
+    /* #container_btn_comprar{
+        text-align: center;
+        background-color: yellow;
+    } */
+}
+
+
+@media screen and (min-width:576px) and (max-width:767px){
+
+    #lbl_qtd{
+        margin-top: 42px;
+    }
+
+    #btn_comprar{
+        /* margin-top: 60px; */
+        background-color: #b86360;
+        color: white;
+        width: 200px;
+        border: solid 2px #9D5452;
+    }
+
+    #container_chk{
+        margin-bottom: 30px;
+    }
+
+    .img-zoom-lens{
+        display: none;
+    }
+
+    /* #img_produto{
+        width: 300px;
+        height: 300px;
+    } */
+
+    /* #container_btn_comprar{
+        text-align: center;
+        background-color: yellow;
+    } */
+}
+
+
+@media screen and (min-width:768px) and (max-width:991px){
+
+    #lbl_qtd{
+        margin-top: 42px;
+    }
+
+    #btn_comprar{
+        /* margin-top: 60px; */
+        background-color: #b86360;
+        color: white;
+        width: 300px;
+        border: solid 2px #9D5452;
+    }
+
+    #container_chk{
+        margin-bottom: 30px;
+    }
+
+    .img-zoom-lens{
+        display: none;
+    }
+
+    /* #img_produto{
+        width: 300px;
+        height: 300px;
+    } */
+
+    /* #container_btn_comprar{
+        text-align: center;
+        background-color: yellow;
+    } */
+}

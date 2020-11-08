@@ -1,0 +1,45 @@
+
+body{
+    background-color: #ebebeb;
+}
+
+hr{
+    border: solid 1px #351912;
+    opacity: 0.9;
+}
+
+.titulo-principal{
+    font-size: 1.4rem;
+}
+.titulo{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.subtitulo{
+    font-size: 1.0rem;
+    font-weight: bold;
+   
+   
+   
+}
+.conteudo{
+    color: #351912;
+}
+
+.pedidos{
+    max-height: 400px;
+}
+
+.botao-voltar{
+    background-color: #fff;
+    color: #b86360;
+    border: solid 2px #9D5452;
+    font-weight: bold;
+    min-width: 45%;
+    max-width: 90%; 
+}
+
+.botao-voltar:hover{
+    color:#fff;
+    background-color: #b86360;
+}

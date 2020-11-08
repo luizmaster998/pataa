@@ -1,0 +1,236 @@
+/* =========================================== */
+/* ================== HEADER ================= */
+/* =========================================== */
+
+#header-pataNaJanta{
+    /* position: fixed;
+    top: 0; */
+    position: -webkit-sticky;
+    position: sticky;
+    transition: top 1.0s;
+    z-index: 999;
+}
+
+/* EFEITO DE DESAPARECER AO DESCER A PAGINA */
+@media screen and (max-height:699px) and (max-width:769px){
+
+    #header-pataNaJanta{
+        position: static;
+    }
+}
+
+/* EFEITO DE DESAPARECER AO DESCER A PAGINA */
+@media screen and (max-width:769px){
+
+    #header-pataNaJanta{
+        position: static;
+    }
+}
+
+.header{
+    background-color: #b7773f;
+    min-height: 115px;
+}
+
+.navBar{
+    min-height: 60px;
+    background-color: #351912;
+}
+
+/* ========================================================== */
+/* ==================== BOTAO BUSCAR ======================== */
+/* ========================================================== */
+
+.btn-search{
+    background-color: #b86360;
+    border: solid 2px #9D5452;
+}
+
+.btn-search:hover{
+    background-color: #C27976;
+}
+
+.sucessoDeCompras{
+    color:  #b86360;
+}
+
+
+
+/* ========================================================== */
+/* ===================== ITENS MENU ========================= */
+/* ========================================================== */
+
+.linksNavBarTitulo{
+    color: white;
+}
+
+.linksNavBarTitulo:hover{
+    color: white;
+}
+
+
+.linkNavBar:hover{
+    color: white;
+    background-color: #b86360;
+}
+
+
+/* ========================================================== */
+/* ===================== BARRA DE PESQUISA ================== */
+/* ========================================================== */
+
+.searchBox{
+    /* min-width:300px;
+    max-width: 619px; */
+    max-width: 619px;
+    display: inline;
+}
+
+
+/* ========================================================== */
+/* ============ MEDIA QUERY BARRA DE PESQUISA =============== */
+/* ========================================================== */
+
+/* TELA MUITO PEQUENA */
+@media screen and (max-width:392px) {
+
+    .searchBox{
+        width: 200px;
+    }
+
+    .barrinha{
+        width: 100%;
+    }
+}
+
+/* TELA MUITO PEQUENA - XSM */
+@media screen and (min-width: 393px) and (max-width:575px) {
+
+    .searchBox{
+        width: 300px;
+        
+    }
+
+    .barrinha{
+        width: 100%;
+    }
+}
+
+/* DE SMALL ATE TELAS MEDIAS - MD*/
+@media screen and (min-width:576px) and (max-width:768px){
+
+    .searchBox{
+        width: 190px;
+        margin-left: 20px;
+    }
+    .barrinha{
+        width: 100%;
+    }
+
+    /* #lblUser{
+        font-size: 11px;
+    } */
+}
+
+/* DE MEDIUM ATE TELAS LARGAS - LG*/
+@media screen and (min-width:769px) and (max-width:991px){
+
+    .searchBox{
+        width: 347px;
+    }
+    
+}
+
+/* DE LG ATE TELAS EXTRA LARGAS - XLG*/
+@media screen and (min-width:992px) and (max-width:1200px){
+
+    .searchBox{
+        width: 477px;
+    }
+}
+
+/* DE XLG ATE INFINITO*/
+@media screen and (min-width:1201px){
+
+    .searchBox{
+        width: 593px;
+    }
+}
+
+
+
+/* ========================================================================= */
+/* ========================= CSS FOOTER ==================================== */
+/* ========================================================================= */
+
+
+*{font-family: Arial, Helvetica, sans-serif;}
+
+.footer{
+    background-color: #351912;
+    color: #fff;
+  
+}
+
+.titulo{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.divOrientation{
+    float: right;
+}
+
+
+
+/* =============================================================== */
+/* =============== FIX QUEBRA DE LAYOUT CARTOES ================== */
+/* =============================================================== */
+
+@media screen and (max-width:575px){
+
+    .divOrientation{
+        float: left;
+        margin-left: 15px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:586px){
+
+    #card-1{
+        width: 45px;
+    }
+
+    #card-2{
+        width: 45px;
+    }
+
+    #card-3{
+        width: 45px;
+    }
+
+    #card-4{
+        width: 55px;
+    }
+}
+
+@media screen and (max-width:293px){
+
+    #card-1{
+        width: 40px;
+    }
+
+    #card-2{
+        width: 40px;
+    }
+
+    #card-3{
+        width: 40px;
+    }
+
+    #card-4{
+        width: 50px;
+    }
+}

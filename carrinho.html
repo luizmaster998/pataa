@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+        <title>Carrinho</title>
+
+        <!-- CSS BOOTSTRAP -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+        <!-- MEU HEADER + FOOTER -->
+        <link rel="stylesheet" href="styles/style-fixo.css">
+
+        <!-- CSS PAGINA -->
+        <link rel="stylesheet" href="styles/carrinho.css">
+
+    </head>
+
+    <body class="container-fluid">
+    <header>
+        <div class="row header">
+            <div class="col-12 col-sm-2 text-center mt-2">
+                <a href="home.html"><img class="img-fluid" src="images/logov7.png" alt="logo" width="170px"></a>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="row">
+            <div class="col-12 col-xl-8 col-md-6">
+                <h3 class="titulo-carrinho mt-4 ml-2">Meu Carrinho</h3>
+                <p class="ml-2">Fornecido e entregue por Pata na Janta <b class="numero-itens">2</b> itens</p>
+                
+                <!-- LISTA DE ITENS ADICIONADOS-->
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card card-itens">
+                            <div class="card-body row">
+                                <div class="col-12 col-sm-6 col-xl-2 text-center">
+                                    <img class= "produtos img-fluid" src="images/item-carrinho.jpg" alt="produto-carrinho" width="60%" height="60%">
+                                </div>
+                                <div class="col-12 col-sm-6 col-xl-4  mt-3">
+                                    <h6>Ração Golden Gatos Castrados Frango 1kg</h6>
+                                </div>
+                                <div class="col-4 col-sm-4 col-xl-2 mt-3">
+                                    <span >R$ 18,90</span>
+                                </div>
+                                <div class="col-4 col-sm-4 col-xl-2 mt-3">
+                                    <input class="quantidade form-control" type="number" name="quantidade" id="quantidade" value= "2" min="1">
+                                    <span class="excluir-produto ml-1">excluir</span>
+                                </div>
+                                <div class="col-4 col-sm-4 col-xl-2 mt-3">
+                                    <span >R$ 37,80</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card card-itens">
+                            <div class="card-body row">
+                                <div class="col-12 col-sm-6 col-xl-2 text-center">
+                                    <img class= "img-fluid" src="images/item-carrinho-2.jpg" alt="produto-carrinho" width="60%" height="60%">
+                                </div>
+                                <div class="col-12 col-sm-6 col-xl-4 mt-3">
+                                    <h6>Ração Gran Plus Choice Cães Adultos Frango e Carne 15kg</h6>
+                                </div>
+                                <div class="col-4 col-sm-4 col-xl-2 mt-3">
+                                    <span >R$ 104,90</span>
+                                </div>
+                                <div class="col-4 col-sm-4 col-xl-2 mt-3">
+                                    <input class="quantidade form-control" type="number" name="quantidade" id="quantidade" value="1" min="1">
+                                    <span class="excluir-produto ml-1">excluir</span>
+                                </div>
+                                <div class="col-4 col-sm-4 col-xl-2 mt-3">
+                                    <span >R$ 104,90</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--RESUMO DO PEDIDO-->
+
+            <div class="col-12 col-xl-4 col-md-6">
+                <div class="col-12 resumo-pedido mt-1">
+                    <h4 class="titulo-carrinho">Resumo do Pedido</h4>
+                        <span>Subtotal</span>
+                        <span id="valor">R$ 180,90</span>
+                        <hr>
+                        <span>Total</span>
+                        <span id="valor">R$ 180,90</span>
+                <div class="row">
+                    <div class="col-xl-12 text-center mt-5">
+                       <a href="checkout.html"><button class="botao btn botao-continuar-compra" type="submit">Finalizar Compra</button></a> 
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center mt-3">
+                       <a href="resultado-produto.html"><button class="botao btn botao-mais-produtos" type="submit">Escolher mais produtos</button></a> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+     </section>
+     <footer class="row footer mt-5">
+        <div class="col-12 mt-3">
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <div class="text-left ml-3">
+                        <h6 class="titulo">Formas de Pagamento</h6>
+                        <img id="card-1" class="img-fluid" src="images/MASTERCARD.png" alt="mastercard" width="50px">
+                        <img id="card-2" class="ml-2 img-fluid" src="images/ICONE VISA.png" alt="visa" width="50px">
+                        <img id="card-3" class="ml-2 img-fluid" src="images/PAYPAL.png" alt="paypal" width="53px">
+                        <img id="card-4" class="ml-2 img-fluid" src="images/AMEX.png" alt="american" width="55px">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <div class="divOrientation mr-3">
+                        <h6 class="titulo">Redes Sociais</h6>
+                        <img class="mr-2 img-fluid" src="images/instagram.png" alt="instagram" width="40px">
+                        <img class="mr-2 img-fluid" src="images/Twitter.png" alt="Twitter" width="40px">
+                        <img class="img-fluid" src="images/Face .png" alt="face" width="35px">
+                    </div>    
+                </div>
+            </div>
+        </div>
+        <div class="col-12 text-center mt-4">
+            <p>Política de privacidade | © 2020 PATA NA JANTA. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+     <!-- JS BOOTSTRAP -->
+     
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,535 @@
+.formulario h5{
+   color:#b7773f;
+   margin-top: 20px;
+   
+}
+
+.logos{
+
+   margin-top: 70px;
+  
+   padding-top: 50px;
+   padding-bottom: 10px;
+   
+   
+
+}
+
+.formulario{
+   margin-top: 20px;
+   border-radius: 10px;
+   border:1px solid black;
+   padding-top: 50px;
+   padding-bottom: 10px;
+  
+}
+
+
+.btn-jacadastrado{
+   color: #fff;
+   background-color: #b7773f;
+   border: solid 2px #b7773f;
+}
+.btn-jacadastrado:hover{
+   
+   color: white;
+}
+
+
+.criarConta{
+   font-size: xx-large;
+}
+
+.inferior{
+
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+   padding-top: 50px;
+   margin-bottom: 60px;
+   
+   
+
+}
+.btn-limpar:hover{
+   background-color: #b86360;
+   color: white;
+}
+
+
+.btn-limpar{
+   color: #b86360;
+   
+   background-color: #fff;
+   border: solid 2px#b86360;
+   border-radius: 5px;
+   margin-bottom: 10px;
+   min-width: 15rem;
+   max-width: 30rem;
+   
+}
+
+.btn-cadastrar:hover{
+   background-color: #966462;
+   color: white;
+}
+
+
+.btn-cadastrar{
+   color:white;
+   background-color: #b86360;
+   border: solid 2px #b7773f;
+   min-width: 15rem;
+   max-width: 30rem;
+}
+
+
+/*
+@media screen and (max-width:392px) {
+.logos{
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 10px;
+   display: flex;
+   align-items: center;
+      width: 200px;
+      
+
+}
+.formulario{
+ 
+   margin-top: 10px;
+   display: flex;
+   align-items: center;
+      width: 300px;
+  
+    }
+  
+   
+.nome-form{
+   width: 200px;
+
+ }
+.sobrenome-form{
+    width: 200px;
+
+  }
+.cpf-form{
+width: 200px;
+
+}
+.dtNascimento-form{
+width: 200px;
+
+}
+.tel-form{
+width: 200px;
+
+}
+.email-form{
+width: 200px;
+
+}
+.senha{
+width: 200px;
+
+}
+.confSenha-form{
+width: 200px;
+
+}
+.inferior{
+width: 200px;
+
+}
+.btn-search1{
+width: 200px;
+margin-bottom: 20px;
+
+}
+.btn-search2{
+width: 200px;
+margin-bottom: 40px;
+}
+.btn-jacadastrado{
+ width:200px;
+ margin-top: 20px;
+}
+.criarConta{
+
+ width: 200px;
+}
+ }
+
+
+
+ @media screen and (min-width: 393px) and (max-width:575px) {
+   .logos{
+      margin-top: 10px;
+      display: flex;
+      align-items: center;
+         width: 300px;
+   
+   }
+   .imgcad{
+      margin-left: 70px;
+   }
+   .formulario{
+      margin-top: 10px;
+         width: 400px;
+     
+       }
+      
+   .nome-form{
+      width: 300px;
+   
+    }
+   .sobrenome-form{
+       width: 300px;
+   
+     }
+   .cpf-form{
+   width: 300px;
+   
+   }
+   .dtNascimento-form{
+   width: 300px;
+   
+   }
+   .tel-form{
+   width: 300px;
+   
+   }
+   .email-form{
+   width: 300px;
+   
+   }
+   .senha{
+   width: 300px;
+   
+   }
+   .confSenha-form{
+   width: 300px;
+   
+   }
+   .inferior{
+   width: 300px;
+   }
+   .btn-search1{
+   width: 300px;
+   margin-bottom: 10px;
+   
+   }
+   .btn-search2{
+   width: 300px;
+   margin-bottom: 40px;
+   
+   }
+   .btn-jacadastrado{
+    width:300px;
+    margin-top: 20px;
+   }
+   .criarConta{
+    width: 300px;
+   }
+    }
+
+
+
+    @media screen and (min-width:576px) and (max-width:768px)
+    {
+      .logos{
+         margin-top: 10px;
+         display: flex;
+         align-items: center;
+            width: 400px;
+      
+      }
+      .imgcad{
+         margin-left: 100px;
+      }
+      .formulario{
+            width: 500px;
+            margin-top: 30px;
+        
+          }
+         
+      .nome-form{
+         width: 400px;
+      
+       }
+      .sobrenome-form{
+          width: 400px;
+      
+        }
+      .cpf-form{
+      width: 400px;
+      
+      }
+      .dtNascimento-form{
+      width: 400px;
+      
+      }
+      .tel-form{
+      width: 400px;
+      
+      }
+      .email-form{
+      width: 400px;
+      
+      }
+      .senha{
+      width: 400px;
+      
+      }
+      .confSenha-form{
+      width: 400px;
+      
+      }
+      .inferior{
+      width: 400px;
+      }
+      .btn-search1{
+      width: 400px;
+      margin-bottom: 20px;
+      
+      }
+      .btn-search2{
+      width: 400px;
+      margin-bottom: 40px;
+      
+      }
+      .btn-jacadastrado{
+       width:400px;
+       margin-top: 20px;
+      }
+      .criarConta{
+       width: 400px;
+      }
+       }
+
+
+       @media screen and (min-width:769px) and (max-width:991px)
+       {
+     
+         .logos{
+            margin-top: 1px;
+            display: flex;
+            align-items: center;
+               width: 500px;
+         
+         }
+         .imgcad{
+            margin-left: 150px;
+         }
+
+         .formulario{
+               width: 600px;
+               margin-top: 20px;
+           
+             }
+            
+         .nome-form{
+            width: 500px;
+         
+          }
+         .sobrenome-form{
+             width: 500px;
+         
+           }
+         .cpf-form{
+         width: 500px;
+         
+         }
+         .dtNascimento-form{
+         width: 500px;
+         
+         }
+         .tel-form{
+         width: 500px;
+         
+         }
+         .email-form{
+         width: 500px;
+         
+         }
+         .senha{
+         width: 500px;
+         
+         }
+         .confSenha-form{
+         width: 500px;
+         
+         }
+         .inferior{
+         width: 500px;
+         margin-bottom: 20px;
+         }
+         .btn-search1{
+         width: 500px;
+         
+         }
+         .btn-search2{
+         width: 500px;
+         margin-top: 40px;
+         
+         }
+         .btn-jacadastrado{
+          width:500px;
+          margin-top: 20px;
+         
+         }
+         .criarConta{
+          width: 500px;
+         }
+          }
+
+          @media screen and (min-width:992px) and (max-width:1200px){
+          
+         .logos{
+            margin-top: 1px;
+            display: flex;
+            align-items: center;
+               width: 900px;
+         
+         }
+         .imgcad{
+            margin-left: 70px;
+         }
+
+         .formulario{
+               width: 900px;
+               margin-top: 20px;
+           
+             }
+            
+         .nome-form{
+            width: 400px;
+         
+          }
+         .sobrenome-form{
+             width: 400px;
+         
+           }
+         .cpf-form{
+         width: 400px;
+         
+         }
+         .dtNascimento-form{
+         width: 400px;
+         
+         }
+         .tel-form{
+         width: 400px;
+         
+         }
+         .email-form{
+         width: 400px;
+         
+         }
+         .senha{
+         width: 200px;
+         
+         }
+         .confSenha-form{
+         width: 200px;
+         margin-top: 10px;
+         
+         }
+         .inferior{
+         width: 800px;
+         }
+         .btn-search1{
+         width: 300px;
+         
+         }
+         .btn-search2{
+         width: 300px;
+        margin-bottom: 40px;
+         
+         }
+         .btn-jacadastrado{
+          width:300px;
+          margin-top: 20px;
+          margin-left: 150px;
+         
+         }
+       
+           
+
+          }
+          @media screen and (min-width:1201px){
+
+          .logos{
+            margin-top: 1px;
+            display: flex;
+            align-items: center;
+               width: 900px;
+         
+         }
+         .imgcad{
+            margin-left: 70px;
+         }
+
+         .formulario{
+               width: 900px;
+               margin-top: 20px;
+           
+             }
+            
+         .nome-form{
+            width: 400px;
+         
+          }
+         .sobrenome-form{
+             width: 400px;
+         
+           }
+         .cpf-form{
+         width: 400px;
+         
+         }
+         .dtNascimento-form{
+         width: 400px;
+         
+         }
+         .tel-form{
+         width: 400px;
+         
+         }
+         .email-form{
+         width: 400px;
+         
+         }
+         .senha{
+         width: 200px;
+         
+         }
+         .confSenha-form{
+         width: 200px;
+         margin-top: 10px;
+         
+         }
+         .inferior{
+         width: 800px;
+         }
+         .btn-search1{
+         width: 300px;
+         
+         }
+         .btn-search2{
+         width: 300px;
+        margin-bottom: 40px;
+         
+         }
+         .btn-jacadastrado{
+          width:300px;
+          margin-top: 20px;
+          margin-left: 150px;
+         
+         }
+       
+           
+
+          }
+          */
